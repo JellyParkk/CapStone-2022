@@ -7,8 +7,7 @@
 <div>예정사항 : 안드로이드 스튜디오 및 코틀린 학습 및 실습 실시 </div>
 <div>관련 링크:  https://www.youtube.com/watch?v=WlJszSmK_es </div>
 <div>다음 회의 날짜 : 2020.03.27 종각 1시 </div>
-</div>
-
+<div></div>
 2022.04.10 회의록
 
 <div>실시사항 : 프론트 종합, 향후 일정 계획 </div>
