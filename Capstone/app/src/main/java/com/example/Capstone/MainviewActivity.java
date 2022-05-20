@@ -31,7 +31,7 @@ public class MainviewActivity extends AppCompatActivity {
         Start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(i==true){
+                if(i){
                 Start.setSelected(true);
                 i = false;}
                 else {
