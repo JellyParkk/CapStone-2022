@@ -56,4 +56,7 @@
 - 승인되면 PR작성자가 `merge` 후 branch 삭제 
 - 다시 issue 등록, 브랜치 생성 후 작업 진행 
 
-  
+   # CapStone 회의록 
+### 2022.05.20 19:30
+
+- 회의 내용 :  각자 작업 환경에서 STT testing 진행 후, 추후 회의날짜 정할 예정 (참고 링크 : https://stickode.tistory.com/129 )
