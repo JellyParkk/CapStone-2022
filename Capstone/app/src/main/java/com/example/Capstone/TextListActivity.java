@@ -180,7 +180,7 @@ public class TextListActivity extends AppCompatActivity {
         Collections.sort(list, new Comparator<DataModel>() {
             @Override
             public int compare(DataModel dModel2, DataModel dModel1) {
-                return dModel1.text_date.compareTo(dModel2.text_date);
+                return dModel1.text_title.compareTo(dModel2.text_title);
             }
         });
         return list;
