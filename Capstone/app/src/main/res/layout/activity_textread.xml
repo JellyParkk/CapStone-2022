@@ -44,6 +44,14 @@
             android:onClick="savefile"
             app:srcCompat="@android:drawable/ic_menu_edit"
             />
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_weight="10"
+            android:onClick="deletefile"
+            app:srcCompat="@android:drawable/ic_delete"
+            />
 
     </LinearLayout>
 

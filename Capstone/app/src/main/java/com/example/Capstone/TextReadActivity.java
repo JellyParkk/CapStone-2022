@@ -48,6 +48,12 @@ public class TextReadActivity extends AppCompatActivity {
 
     private File f,d;
 
+    public void delete(){
+        d = new File(path0, (Filename + ".txt"));
+        d.delete();
+        finish();
+    }
+
 
 
     public void save(String newfilename){
@@ -109,6 +115,9 @@ public class TextReadActivity extends AppCompatActivity {
 
     public void savefile(View v) {
         save(edtxt.getText().toString());
+    }
+    public void deletefile(View v) {
+        delete();
     }
 
     //경로의 텍스트 파일읽기
