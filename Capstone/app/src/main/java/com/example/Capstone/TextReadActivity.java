@@ -67,7 +67,11 @@ public class TextReadActivity extends AppCompatActivity {
             file.write(data);
             file.flush();
             file.close();
-            d.delete();
+            if(!d.getName().equals(f.getName()))
+            {
+                d.delete();
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
             Log.d("testTag","save fail");
