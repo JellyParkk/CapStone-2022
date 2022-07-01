@@ -26,7 +26,9 @@
         <entry key="..\:/Users/dkhsj/Documents/GitHub/CapStone-2022/Capstone/app/src/main/res/layout/activity_mainview.xml" value="0.2259963768115942" />
         <entry key="..\:/Users/dkhsj/Documents/GitHub/CapStone-2022/Capstone/app/src/main/res/layout/activity_textread.xml" value="0.2259963768115942" />
         <entry key="app/src/main/res/drawable-v24/click_play.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/click_store.xml" value="0.127" />
         <entry key="app/src/main/res/drawable-v24/ic_save.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/spinner_border.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mainview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_textlist.xml" value="0.11144883485309018" />
@@ -36,6 +38,7 @@
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
