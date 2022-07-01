@@ -24,19 +24,18 @@
 -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="300dp"
-        android:layout_height="350dp"
-        tools:ignore="MissingConstraints"
+        android:layout_width="314dp"
+        android:layout_height="362dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/text_border"
-        android:padding="50dp"
+        android:padding="30dp"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollbarFadeDuration="0"
         android:scrollbarStyle="outsideInset"
         android:scrollbars="vertical"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -44,11 +43,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233"/>
+        app:layout_constraintVertical_bias="0.233"
+        tools:ignore="MissingConstraints" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="70dp"
+        android:layout_width="80dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/spinner_border"
