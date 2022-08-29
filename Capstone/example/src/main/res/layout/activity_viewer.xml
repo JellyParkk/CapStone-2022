@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_material_light"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp">
+
+
+            <com.ftinc.kit.widget.AspectRatioImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="334dp"
+                android:layout_height="105dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="30dp"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+
+
+                tools:text="@string/placeholder_lorem_ipsum" />
+
+
+            <ImageButton
+                android:id="@+id/deleteButton"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/title"
+                android:layout_alignParentRight="true"
+                android:background="#00FFFFFF"
+                android:onClick="deletefile"
+                app:srcCompat="@drawable/ic_delete" />
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/title"
+                android:layout_toLeftOf="@+id/deleteButton"
+                android:background="#00FFFFFF"
+                android:onClick="savefile"
+                app:srcCompat="@drawable/ic_rename" />
+
+
+            <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:theme="@style/ActionBarThemeOverlay"
+                app:popupTheme="@style/ActionBarPopupThemeOverlay" />
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="4dp"
+            >
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="@string/placeholder_lorem_ipsum_extralong"
+                android:textSize="16sp"
+                android:textColor="@color/black56"
+                android:lineSpacingExtra="2dp"
+                android:layout_margin="16dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
