@@ -2,16 +2,41 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()
+        jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.4"
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        //classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:4.0.1'
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+allprojects {
+    repositories {
+        google()
+        jcenter()
+		maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+}
+
+ext {
+	//App
+	libraryCode = VERSION_CODE
+	libraryVersion = VERSION_NAME
+
+	//Support and Build tools version
+    compileSdk = 28
+    targetSdk = 28
+    //minSdk = 19
+    minSdk = 21
+    ftKit = '0.6.0'
+
+	//Support Libraries dependencies
+	supportDependencies = [
+			support       : 'androidx.legacy:legacy-support-v4:1.0.0',
+            appCompat     : 'androidx.appcompat:appcompat:1.0.0',
+            recycler      : 'androidx.recyclerview:recyclerview:1.0.0',
+            cardView      : 'androidx.cardview:cardview:1.0.0',
+            kitCore       : "com.52inc:52Kit-core:${ftKit}"
+	]
+
 }

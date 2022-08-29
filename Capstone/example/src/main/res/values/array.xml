@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang">
+        <item>한글</item>
+        <item>영어</item>
+    </string-array>
+
+    <string-array name="search">
+        <item>제목</item>
+        <item>내용</item>
+    </string-array>
+</resources>
