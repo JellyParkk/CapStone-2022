@@ -37,7 +37,9 @@
                 android:paddingBottom="30dp"
                 android:textColor="@color/white"
                 android:textSize="34sp"
-                tools:text="제목" />
+
+
+                tools:text="@string/placeholder_lorem_ipsum" />
 
 
             <ImageButton
@@ -90,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scrollbars="vertical"
-                android:text="내용"
+                android:text="@string/placeholder_lorem_ipsum_extralong"
                 android:textSize="16sp"
                 android:textColor="@color/black56"
                 android:lineSpacingExtra="2dp"
