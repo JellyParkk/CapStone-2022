@@ -5,7 +5,6 @@ buildscript {
         jcenter()
     }
     dependencies {
-        //classpath 'com.android.tools.build:gradle:3.5.0'
         classpath 'com.android.tools.build:gradle:4.0.1'
     }
 }
@@ -26,7 +25,6 @@ ext {
 	//Support and Build tools version
     compileSdk = 28
     targetSdk = 28
-    //minSdk = 19
     minSdk = 21
     ftKit = '0.6.0'
 

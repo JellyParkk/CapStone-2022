@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    //compileSdkVersion targetSdk
     compileSdkVersion 31
 
     defaultConfig {
