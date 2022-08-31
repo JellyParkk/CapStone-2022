@@ -1,0 +1,32 @@
+com/example/Capstone/BuildConfig.java
+ com.example.Capstone.BuildConfig
+com/example/Capstone/recyclerviewAdapter.java
+ com.example.Capstone.recyclerviewAdapter
+ com.example.Capstone.recyclerviewAdapter$1
+ com.example.Capstone.recyclerviewAdapter$MyViewHolder
+com/example/Capstone/TextReadActivity.java
+ com.example.Capstone.TextReadActivity
+ com.example.Capstone.TextReadActivity$1
+ com.example.Capstone.TextReadActivity$2
+ com.example.Capstone.TextReadActivity$3
+ com.example.Capstone.TextReadActivity$4
+ com.example.Capstone.TextReadActivity$DeleteFragment
+ com.example.Capstone.TextReadActivity$DeleteFragment$1
+ com.example.Capstone.TextReadActivity$DeleteFragment$2
+com/example/Capstone/MediaScanner.java
+ com.example.Capstone.MediaScanner
+ com.example.Capstone.MediaScanner$1
+com/example/Capstone/DataModel.java
+ com.example.Capstone.DataModel
+com/example/Capstone/TextListActivity.java
+ com.example.Capstone.TextListActivity
+ com.example.Capstone.TextListActivity$1
+ com.example.Capstone.TextListActivity$2
+ com.example.Capstone.TextListActivity$3
+com/example/Capstone/MainviewActivity.java
+ com.example.Capstone.MainviewActivity
+ com.example.Capstone.MainviewActivity$1
+ com.example.Capstone.MainviewActivity$2
+ com.example.Capstone.MainviewActivity$3
+ com.example.Capstone.MainviewActivity$4
+ com.example.Capstone.MainviewActivity$5
