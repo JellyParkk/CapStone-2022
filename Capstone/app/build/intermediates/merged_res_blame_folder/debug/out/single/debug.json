@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_play_start.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_play_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_spinner_border.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\spinner_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_click_play.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\click_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_text_border.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\text_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\anim_fab_open.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\anim\\fab_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\anim_fab_close.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\anim\\fab_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\layout_text_list.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\layout\\text_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_conversion.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_conversion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_textread.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\layout\\activity_textread.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_stop_circle.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_stop_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_save.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_storage.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\anim_rotate_forward.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\anim\\rotate_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_mainview.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\layout\\activity_mainview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_click_store.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\click_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_textlist.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\layout\\activity_textlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_add.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\layout_editdialog.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\layout\\editdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_pause.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable-v24\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\anim_rotate_backward.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\anim\\rotate_backward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\drawable_line.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\drawable\\line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrator\\Desktop\\capstone\\Capstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]
