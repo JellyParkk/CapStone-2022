@@ -1,7 +1,7 @@
-   # CapStone 프로젝트 환경
-## FE
+   # CapStone 프로젝트
+## 개발 도구 
 
-- 
+- Android Studio
 -
 
 # 개발 가이드
