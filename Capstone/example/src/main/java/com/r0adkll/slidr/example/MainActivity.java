@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
     void CheckPermission() {
         if(Build.VERSION.SDK_INT >= 23) {
             if((ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) == PackageManager.PERMISSION_DENIED) || (ContextCompat.checkSelfPermission(this,Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_DENIED)){
-                ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.INTERNET,Manifest.permission.RECORD_AUDIO},1);
+                ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.INTERNET,Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
             }
         }
     }

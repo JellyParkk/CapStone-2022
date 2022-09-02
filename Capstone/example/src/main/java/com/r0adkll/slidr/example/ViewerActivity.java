@@ -1,15 +1,11 @@
 package com.r0adkll.slidr.example;
 
-import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -21,9 +17,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
 import com.ftinc.kit.util.SizeUtils;
-import com.ftinc.kit.util.Utils;
 import com.ftinc.kit.widget.AspectRatioImageView;
-import com.r0adkll.slidr.Slidr;
 import com.r0adkll.slidr.example.model.TextFile;
 import com.r0adkll.slidr.model.SlidrConfig;
 import com.r0adkll.slidr.model.SlidrPosition;
@@ -77,8 +71,6 @@ public class ViewerActivity extends AppCompatActivity {
                 .secondaryColor(secondary)
                 .position(SlidrPosition.VERTICAL)
                 .velocityThreshold(2400)
-//                .distanceThreshold(.25f)
-//                .edge(true)
                 .touchSize(SizeUtils.dpToPx(this, 32))
                 .build();
 

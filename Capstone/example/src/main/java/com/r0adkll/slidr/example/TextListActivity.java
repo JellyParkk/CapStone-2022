@@ -5,13 +5,10 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
-import android.widget.Switch;
 
 import com.ftinc.kit.adapter.BetterRecyclerAdapter;
 import com.r0adkll.slidr.example.model.TextFile;
@@ -39,15 +36,11 @@ public class TextListActivity extends AppCompatActivity {
     private TextFileAdapter mAdapter;
     String path = Environment.getExternalStorageDirectory().toString()+"/Download/TestDir";
 
-
-
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("tlqkf","=========================");
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},MODE_PRIVATE);
         super.onCreate(savedInstanceState);
-        //Log.d("tlqkf", String.valueOf(savedInstanceState));
         setContentView(R.layout.activity_textlist);
         ButterKnife.bind(this);
         try {
@@ -82,7 +75,6 @@ public class TextListActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.O)
     protected void onResume() {
         super.onResume();
-        Log.d("tlqkf","2=========================");
         ButterKnife.bind(this);
         try {
             initRecycler(0,null);
@@ -113,12 +105,9 @@ public class TextListActivity extends AppCompatActivity {
         });
     }
 
-
-
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void initRecycler(int condition, @Nullable String target) throws IOException {
         mAdapter = new TextFileAdapter();
-        Log.d("tlqkf",condition+"/"+target);
         if(condition==0) {
             mAdapter.addAll(getData1());
         } else if (condition==1) {
@@ -140,27 +129,17 @@ public class TextListActivity extends AppCompatActivity {
         });
     }
 
-
     @RequiresApi(api = Build.VERSION_CODES.O)
     private List<TextFile> getData1() throws IOException {
         File directory = new File(path);
         if(!directory.exists()) {
             try {
-                //Log.d("tlqkf","no direcotry");
                 directory.mkdir();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
         File[] file = directory.listFiles();
-        //if(directory.isDirectory()) Log.d("tlqkf","is directory");
-        //Log.d("tlqkf",path);
-        if(file==null) {
-            //Log.d("tlqkf","null");
-        } else {
-            //Log.d("tlqkf",Integer.toString(file.length));
-        }
-        //List<TextFile> files = new ArrayList<TextFile>();
         TextFile[] tem = new TextFile[file.length];
         for (int i=0; i<file.length;i++){
             TextFile temp = new TextFile(new File(file[i].getPath()));
@@ -168,7 +147,6 @@ public class TextListActivity extends AppCompatActivity {
         }
         tem = sortFiles(tem);
         List<TextFile> files = Arrays.asList(tem);
-        //Log.d("tlqkf",Integer.toString(files.size()));
         return files;
     }
 
@@ -177,21 +155,12 @@ public class TextListActivity extends AppCompatActivity {
         File directory = new File(path);
         if(!directory.exists()) {
             try {
-                //Log.d("tlqkf","no direcotry");
                 directory.mkdir();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
         File[] file = directory.listFiles();
-        //if(directory.isDirectory()) Log.d("tlqkf","is directory");
-        //Log.d("tlqkf",path);
-        if(file==null) {
-            //Log.d("tlqkf","null");
-        } else {
-            //Log.d("tlqkf",Integer.toString(file.length));
-        }
-        //List<TextFile> files = new ArrayList<TextFile>();
         TextFile[] tem = new TextFile[file.length];
         int idx = 0;
         for (int i=0; i<file.length;i++){
@@ -204,7 +173,6 @@ public class TextListActivity extends AppCompatActivity {
         TextFile[] textFiles = Arrays.copyOfRange(tem,0,idx);
         textFiles = sortFiles(textFiles);
         List<TextFile> files = Arrays.asList(textFiles);
-        //Log.d("tlqkf",Integer.toString(files.size()));
         return files;
     }
 
@@ -213,21 +181,12 @@ public class TextListActivity extends AppCompatActivity {
         File directory = new File(path);
         if(!directory.exists()) {
             try {
-                //Log.d("tlqkf","no direcotry");
                 directory.mkdir();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
         File[] file = directory.listFiles();
-        //if(directory.isDirectory()) Log.d("tlqkf","is directory");
-        //Log.d("tlqkf",path);
-        if(file==null) {
-            //Log.d("tlqkf","null");
-        } else {
-            //Log.d("tlqkf",Integer.toString(file.length));
-        }
-        //List<TextFile> files = new ArrayList<TextFile>();
         TextFile[] tem = new TextFile[file.length];
         int idx = 0;
         for (int i=0; i<file.length;i++){
@@ -240,7 +199,6 @@ public class TextListActivity extends AppCompatActivity {
         TextFile[] textFiles = Arrays.copyOfRange(tem,0,idx);
         textFiles = sortFiles(textFiles);
         List<TextFile> files = Arrays.asList(textFiles);
-        //Log.d("tlqkf",Integer.toString(files.size()));
         return files;
     }
 
