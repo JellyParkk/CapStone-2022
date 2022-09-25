@@ -2,7 +2,6 @@
 ## 개발 도구 
 
 - Android Studio
--
 
 # 개발 가이드
 
@@ -55,19 +54,3 @@
 
 - 승인되면 PR작성자가 `merge` 후 branch 삭제 
 - 다시 issue 등록, 브랜치 생성 후 작업 진행 
-
-## 협업도구 NOTION
-### 초대 링크 : https://www.notion.so/invite/ce6b66be3ec2fce3b55b6a15453788e1fba9cc91
-### NOTION 링크 : https://www.notion.so/565a43e0f04f46a6b2cc7f2ce1539a5d?v=66bceeeab63a4395a5b18809169ac13a
-    - 참고사항 : 노션 사용이 처음이라 서툽니다! 피드백 환영합니다. 많이 쓰이는 도구인만큼, 익숙해지는 것이 좋아보입니다. :) 
-
-   # CapStone 회의록 
-### 2022.05.20 19:30
-
-- 회의 내용 :  각자 작업 환경에서 STT testing 진행 후, 추후 회의날짜 정할 예정입니다. (참고 링크 : https://stickode.tistory.com/129 )
-
-### 2022.06.25 20:00
-
-- 회의 내용 : 현재 진행상황 논의, 앞으로 해야할 일 List up
-- 결정 사항 : 금요일 2시 미팅 전까지 1. 프론트 UI 수정 2. Tool Bar 오류 확인 3. 삭제 기능 수정 4. 다양한 언어 및 기존 기능 구체화 
-- 다음 회의 날짜 : 목요일 오후쯤 노준 팀장 재공지 필요 
