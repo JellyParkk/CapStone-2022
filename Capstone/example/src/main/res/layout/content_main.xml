@@ -73,6 +73,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="583dp"
         android:backgroundTint="@color/white"
+        android:background="#00FFFFFF"
         android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +88,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="614dp"
-        android:background="@color/white"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonStore"
         app:layout_constraintHorizontal_bias="0.907"
@@ -95,6 +96,21 @@
         app:layout_constraintTop_toTopOf="@+id/scrollView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/click_play"
+        tools:ignore="NotSibling" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="614dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonStart"
+        app:layout_constraintHorizontal_bias="0.999"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/click_mic"
         tools:ignore="NotSibling" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

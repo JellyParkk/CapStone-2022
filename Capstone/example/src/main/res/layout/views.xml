@@ -1,0 +1,62 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+            android:id="@+id/v1"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@android:color/holo_blue_dark"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView
+            android:id="@+id/start_image_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_main_start"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/v2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@android:color/holo_orange_dark"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/start_image_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_main_folder"
+            android:clickable="false"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/v3"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@android:color/holo_red_light"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/start_image_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_main_off" />
+    </FrameLayout>
+
+</merge>

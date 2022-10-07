@@ -10,16 +10,16 @@
     <string name="menu_item_send">Send</string>
 
 
-    <string name="app_name">Capstone</string>
+    <string name="app_name">너목보</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_item_Capstone">Capstone</string>
     <string name="action_settings">Settings</string>
     <string name="placeholder_lorem_ipsum">Lorem ipsum dolor set it</string>
-    <string name="menu_item_text_list">text_list</string>
-    <string name="menu_item_save">save</string>
+    <string name="menu_item_text_list">보관함</string>
+    <string name="menu_item_save">저장</string>
     <string name="developer">André Mion</string>
     <string name="menu_item_website">https://github.com/JellyParkk/CapStone-2022.git</string>
-    <string name="menu_item_exit">exit</string>
+    <string name="menu_item_exit">종료</string>
     <string name="menu_item_slideshow">Slideshow</string>
     <string name="menu_item_tools">Tools</string>
 </resources>

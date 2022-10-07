@@ -3,49 +3,62 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/0812p/Desktop/Slidr-master2/example/src/main/res/layout/activity_viewer.xml" value="0.16485507246376813" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable-xxxhdpi/ic_delete.xml" value="0.159375" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable-xxxhdpi/ic_rename.xml" value="0.159375" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_close_animated.xml" value="0.18888888888888888" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_close_vector.xml" value="0.18888888888888888" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_animated.xml" value="0.18888888888888888" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_camera.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_gallery.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_manage.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_send.xml" value="0.18888888888888888" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/drawable/ic_menu_slideshow.xml" value="0.18888888888888888" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/activity_main.xml" value="0.2921195652173913" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/activity_textlist.xml" value="0.3836050724637681" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/activity_viewer.xml" value="0.22" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/content_main.xml" value="0.2203125" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/editdialog.xml" value="0.3836050724637681" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/layout_item.xml" value="0.3836050724637681" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/layout/navigation_view_header.xml" value="0.1" />
-        <entry key="..\:/Users/Administrator/Desktop/Slidr-master2/example/src/main/res/menu/menu_main.xml" value="0.2203125" />
-        <entry key="..\:/Users/Administrator/Desktop/capstone/Capstone/example/src/main/res/drawable-xxxhdpi/click_play.xml" value="0.39739583333333334" />
-        <entry key="..\:/Users/Administrator/Desktop/capstone/Capstone/example/src/main/res/layout/activity_main.xml" value="0.38125" />
-        <entry key="..\:/Users/Administrator/Desktop/capstone/Capstone/example/src/main/res/layout/activity_viewer.xml" value="0.38125" />
-        <entry key="..\:/Users/Administrator/Desktop/capstone/Capstone/example/src/main/res/layout/content_main.xml" value="0.38125" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master/example/src/main/res/drawable/ic_close_animated.xml" value="1.7357142857142858" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master/example/src/main/res/layout/activity_main2.xml" value="0.24427083333333333" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master/example/src/main/res/layout/content_main2.xml" value="0.8299418604651163" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master/example/src/main/res/layout/navigator_view_header.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/activity_main.xml" value="0.20516304347826086" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/activity_textlist.xml" value="0.1" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/activity_viewer.xml" value="0.25885416666666666" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/content_main.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/layout_item.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/layout/navigation_view_header.xml" value="0.25885416666666666" />
-        <entry key="..\:/Users/dkhsj/Desktop/Slidr-master2/example/src/main/res/menu/navigation_view.xml" value="0.25885416666666666" />
-        <entry key="..\:/Users/dkhsj/Documents/GitHub/CapStone-2022/Capstone/example/src/main/res/layout/activity_viewer.xml" value="0.2391304347826087" />
-        <entry key="..\:/Users/dkhsj/Documents/GitHub/CapStone-2022/Capstone/example/src/main/res/layout/layout_item.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/click_mic.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/click_play.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/click_store.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_delete.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_folder.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_main_folder.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_main_off.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_main_start.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_mian_folder.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_off.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_pause.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_play_start.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_rename.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_save.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_search.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/ic_stop_circle.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/micoff.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable-xxxhdpi/round.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_close_animated.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_close_vector.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_header.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_animated.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_camera.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_gallery.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_manage.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_send.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_share.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_slideshow.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/drawable/ic_menu_vector.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/activity_textlist.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/activity_viewer.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/demo1.xml" value="0.12588652482269502" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/demo2.xml" value="0.12588652482269502" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/editdialog.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/layout_item.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/navigation_view_header.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/row.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/layout/views.xml" value="0.1" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/menu/menu_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/example/src/main/res/menu/navigation_view.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/library2/src/main/res/drawable/ic_close_animated.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/library2/src/main/res/drawable/ic_close_vector.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/library2/src/main/res/drawable/ic_menu_animated.xml" value="0.275" />
+        <entry key="..\:/Users/dkhsj/Desktop/CapStone-2022(999)/Capstone/library2/src/main/res/drawable/ic_menu_vector.xml" value="0.275" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>

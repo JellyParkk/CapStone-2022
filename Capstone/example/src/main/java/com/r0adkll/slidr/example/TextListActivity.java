@@ -34,7 +34,7 @@ public class TextListActivity extends AppCompatActivity {
     @BindView(R.id.recycler) RecyclerView mRecycler;
 
     private TextFileAdapter mAdapter;
-    String path = Environment.getExternalStorageDirectory().toString()+"/Download/TestDir";
+    String path = Environment.getExternalStorageDirectory().toString()+"/Download/너목보";
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
