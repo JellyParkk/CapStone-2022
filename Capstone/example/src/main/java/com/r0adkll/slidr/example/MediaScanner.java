@@ -3,7 +3,6 @@ package com.r0adkll.slidr.example;
 import android.content.Context;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
-import android.util.Log;
 
 
 public class MediaScanner {
@@ -26,7 +25,6 @@ public class MediaScanner {
                 }
                 @Override
                 public void onScanCompleted(String path, Uri uri) {
-                    Log.d("Success : ", "MediaScan Complete!");
                     mMediaScanner.disconnect();
                 }
             };

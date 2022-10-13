@@ -92,7 +92,7 @@ public class ViewerActivity extends AppCompatActivity {
         mTitle.setText(title);
         mDescription.setText(mTextFile.text_context);
         Filename = mTextFile.text_title;
-        path0 = Environment.getExternalStorageDirectory().toString()+"/Download/TestDir";
+        path0 = Environment.getExternalStorageDirectory().toString()+"/Download/너목보";
         filecontents = mTextFile.text_context;
     }
 

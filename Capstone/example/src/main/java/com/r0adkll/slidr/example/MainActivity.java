@@ -1,15 +1,17 @@
 package com.r0adkll.slidr.example;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
@@ -45,8 +47,10 @@ public class MainActivity extends AppCompatActivity {
     private SpeechRecognizer speech = null;
     private Intent recognizerIntent;
     String text = "";
-    private final String path = "/storage/emulated/0/Download/TestDir";
+    private final String path = "/storage/emulated/0/Download/너목보";
     File directory = new File(path);
+    private ImageButton Start;
+    private ImageButton Mic;
 
     private void scrollBottom (TextView textView) {
         int lineTop = (textView.getLayout().getLineTop(textView.getLineCount()))+78;
@@ -66,7 +70,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         CheckPermission();
 
-        final ImageButton Start = (ImageButton) findViewById(R.id.imageButtonStart);
+        //final ImageButton Start = (ImageButton) findViewById(R.id.imageButtonStart);
+        Start = (ImageButton) findViewById(R.id.imageButtonStart);
+        Mic = (ImageButton) findViewById(R.id.imageButtonMic);
         ImageButton Stop = (ImageButton) findViewById(R.id.imageButtonStore);
         textView = (TextView) findViewById(R.id.textView);
         scrollView = (ScrollView)findViewById(R.id.scrollView);
@@ -86,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
-                if(item.getTitle().equals("save")) {
+                if(item.getTitle().equals("저장")) {
                     if(!directory.exists()) {
                         try {
                             directory.mkdir();
@@ -118,11 +124,11 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(getApplicationContext(), "There is no text to save.", Toast.LENGTH_SHORT).show();
                     }
-                } else if(item.getTitle().equals("text_list")) {
+                } else if(item.getTitle().equals("보관함")) {
                     Intent intent = new Intent(mFloatingNavigationView.getContext(), TextListActivity.class);
                     mFloatingNavigationView.getContext().startActivity(intent);
                     mFloatingNavigationView.close();
-                } else if(item.getTitle().equals("exit")) {
+                } else if(item.getTitle().equals("종료")) {
                     moveTaskToBack(true);
                     finishAndRemoveTask();
                     android.os.Process.killProcess(android.os.Process.myPid());
@@ -136,6 +142,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 textView.setText("");
                 Start.setSelected(false);
+                Mic.setSelected(false);
+                spinner.setEnabled(true);
                 i=true;
                 listener.onEndOfSpeech();
 
@@ -146,26 +154,35 @@ public class MainActivity extends AppCompatActivity {
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE,this.getPackageName());
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
         recognizerIntent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS,300000);
+        //recognizerIntent.putExtra(RecognizerIntent.EXTRA_WEB_SEARCH_ONLY,true);
+        //recognizerIntent.putExtra(RecognizerIntent.ACTION_WEB_SEARCH,true);
+        //recognizerIntent.putExtra(RecognizerIntent.LANGUAGE_MODEL_WEB_SEARCH,false);
         recognizerIntent.putExtra("android.speech.extra.DICTATION_MODE", true);
 
         Start.setOnClickListener(v -> {
             if(i){
                 Start.setSelected(true);
+                Mic.setSelected(true);
+                spinner.setEnabled(false);
                 if(spinner.getSelectedItem().toString().equals("한글")) {
                     recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,"ko_KR");
                 } else if (spinner.getSelectedItem().toString().equals("영어")) {
                     recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,"en_US");
                 }
-                Log.i("VoiceRecognizer","start Button click");
                 speech = SpeechRecognizer.createSpeechRecognizer(this);
                 speech.setRecognitionListener(listener);
+
+                //AudioManager audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+                //audioManager.setStreamMute(AudioManager.STREAM_NOTIFICATION,true);
+
                 speech.startListening(recognizerIntent);
                 i = false;}
             else {
                 Start.setSelected(false);
+                Mic.setSelected(false);
+                spinner.setEnabled(true);
                 i = true;
                 listener.onEndOfSpeech();
-                Log.i("VoiceRecognizer","finish Button click");
             }
         });
     }
@@ -212,14 +229,24 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public void onError(int i) {
-            String errorMessage = getErrorText(i);
-            Log.d("SpeechRecognizer Error", "FAILED " + errorMessage);
+        public void onError(int err) {
+            String errorMessage = getErrorText(err);
+            if (err != 8) {
+                Start.setSelected(false);
+                Mic.setSelected(false);
+                spinner.setEnabled(true);
+                i = true;
+            }
+            // 실행 : 8(RecognitionService busy)
+            // 종료 : 7(No match) 2(Network error) 9(Insuficient permissions - 아예 실행이 안됨 소리 자체X.)
         }
 
         @Override
         public void onResults(Bundle bundle) {
-
+            Start.setSelected(false);
+            Mic.setSelected(false);
+            spinner.setEnabled(true);
+            i = true;
         }
 
         @Override
@@ -257,7 +284,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onEvent(int i, Bundle bundle) {
-
         }
 
         public String getErrorText(int errorCode) {
@@ -305,9 +331,11 @@ public class MainActivity extends AppCompatActivity {
         if (mFloatingNavigationView.isOpened()) {
             mFloatingNavigationView.close();
         } else {
-            moveTaskToBack(true);
-            finishAndRemoveTask();
-            android.os.Process.killProcess(android.os.Process.myPid());
+            if(!(speech == null)) {
+                speech.stopListening();
+                speech.cancel();
+                speech.destroy();
+            }
             super.onBackPressed();
         }
     }
